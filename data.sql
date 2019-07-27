@@ -18,8 +18,8 @@ create table if not exists users
 )
 ;
 
-INSERT INTO images (id, path) VALUES (1, 'images/guapi.png');
-INSERT INTO images (id, path) VALUES (2, 'images/loulou.png');
-INSERT INTO images (id, path) VALUES (3, 'images/maori.png');
+INSERT INTO images (id, path) VALUES (1, 'images/guapi.jpg');
+INSERT INTO images (id, path) VALUES (2, 'images/loulou.jpg');
+INSERT INTO images (id, path) VALUES (3, 'images/maori.jpg');
 
 INSERT INTO users values ('admin', SUBSTR(MD5(RAND()),1,20));
