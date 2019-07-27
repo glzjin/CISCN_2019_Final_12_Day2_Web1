@@ -6,15 +6,15 @@ create table if not exists images
 (
 	id int auto_increment
 		primary key,
-	path varchar(1000) null
+	path varchar(100) null
 )
 ;
 
 create table if not exists users
 (
-	username varchar(1000) not null
+	username varchar(100) not null
 		primary key,
-	password varchar(1000) null
+	password varchar(100) null
 )
 ;
 
